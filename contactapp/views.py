@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Contact
 
 # Create your views here.
 
@@ -16,6 +17,9 @@ def insertData(request):
         age = request.POST.get('age')
         gender = request.POST.get('gender')
         print(name, lastname, number, email, age, gender)
+        query = Contact(name=name, lastname=lastname,
+                        number=number, email=email, age=age, gender=gender)
+        query.save()
     return render(request, "index.html")
 
 

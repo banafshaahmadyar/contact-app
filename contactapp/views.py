@@ -9,6 +9,8 @@ def index(request):
 
 
 def insertData(request):
+    data = Contact.objects.all()
+    context = {data: "data"}
     if request.method == "POST":
         name = request.POST.get('name')
         lastname = request.POST.get('lastname')
@@ -20,7 +22,7 @@ def insertData(request):
         query = Contact(name=name, lastname=lastname,
                         number=number, email=email, age=age, gender=gender)
         query.save()
-    return render(request, "index.html")
+    return render(request, "index.html", context)
 
 
 def about(request):

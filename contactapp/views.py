@@ -5,12 +5,14 @@ from .models import Contact
 
 
 def index(request):
-    return render(request, "index.html")
+    data = Contact.objects.all()
+    print(data)
+    context = {data: "data"}
+    return render(request, "index.html", context)
 
 
 def insertData(request):
-    data = Contact.objects.all()
-    context = {data: "data"}
+
     if request.method == "POST":
         name = request.POST.get('name')
         lastname = request.POST.get('lastname')
@@ -22,7 +24,7 @@ def insertData(request):
         query = Contact(name=name, lastname=lastname,
                         number=number, email=email, age=age, gender=gender)
         query.save()
-    return render(request, "index.html", context)
+    return render(request, "index.html")
 
 
 def about(request):

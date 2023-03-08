@@ -7,7 +7,7 @@ from .models import Contact
 def index(request):
     data = Contact.objects.all()
     print(data)
-    context = {data: "data"}
+    context = {'data': data}
     return render(request, "index.html", context)
 
 

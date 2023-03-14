@@ -54,11 +54,9 @@ def updateData(request, id):
 
 
 def deleteData(request, id):
-    data = Contact.objects.all()
-    print(data)
-    context = {"data": data}
-
-    return render(request, "index.html", context)
+    d = Contact.objects.get(id=id)
+    d.delete()
+    return redirect("/")
 
 
 def about(request):

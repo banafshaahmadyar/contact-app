@@ -49,13 +49,14 @@
                         </div>
                          <br>
                         <div class="d-grid gap-2">
-                          <button class="btn btn-success" type="submit">Submit<button>
+                          <button class="btn btn-outline-success" type="submit">Submit<button>
                         </div>
            
 
 
-          </div>
+         
         </form>
+      </div>
           <div class="col-md-8">
             <h2 class="text-center text-white bg-dark p-3">Contact Details</h2>
             <table class="table">
@@ -82,9 +83,9 @@
                   <td>{{d.email}}</td>
                   <td>{{d.age}}</td>
                   <td>{{d.gender}}</td>
-                  <td><button type="button" class="btn btn-primary">Edit</button>
+                  <td><a type="button" href="/update/{{d.id}}" class="btn btn-outline-primary">Edit </a>
                   </td>
-                  <td><button type="button" class="btn btn-danger">Delete</button>
+                  <td><a type="button" href="/delete/{{d.id}}" class="btn btn-outline-danger">Delete </a>
                   </td>
                 </tr>
                  {% endfor %}

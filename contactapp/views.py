@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import Contact
-
+from django.contrib import messages
 # Create your views here.
 
 
@@ -25,6 +25,7 @@ def insertData(request):
                         number=number, email=email, age=age, gender=gender)
         query.save()
         return redirect("/")
+        messages.info(request, "Data Inserted successfully")
     return render(request, "index.html")
 
 
@@ -45,6 +46,7 @@ def updateData(request, id):
         edit.age = age
         edit.gender = gender
         edit.save()
+        messages.warning(request, "Data Updated successfully")
         return redirect("/")
 
     d = Contact.objects.get(id=id)
@@ -56,6 +58,7 @@ def updateData(request, id):
 def deleteData(request, id):
     d = Contact.objects.get(id=id)
     d.delete()
+    messages.error(request, "Data deleted successfully")
     return redirect("/")
 
 

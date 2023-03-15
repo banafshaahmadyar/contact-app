@@ -24,9 +24,9 @@ def insertData(request):
         query = Contact(name=name, lastname=lastname,
                         number=number, email=email, age=age, gender=gender)
         query.save()
+        messages.success(request, "Data Inserted successfully")
         return redirect("/")
-        messages.info(request, "Data Inserted successfully")
-    return render(request, "index.html")
+    return render(request, "index.html", context)
 
 
 def updateData(request, id):
@@ -46,7 +46,7 @@ def updateData(request, id):
         edit.age = age
         edit.gender = gender
         edit.save()
-        messages.warning(request, "Data Updated successfully")
+        messages.info(request, "Data Updated successfully")
         return redirect("/")
 
     d = Contact.objects.get(id=id)
@@ -58,7 +58,7 @@ def updateData(request, id):
 def deleteData(request, id):
     d = Contact.objects.get(id=id)
     d.delete()
-    messages.error(request, "Data deleted successfully")
+    messages.warning(request, "Data deleted successfully")
     return redirect("/")
 
 

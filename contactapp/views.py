@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from .models import Contact
 from django.contrib import messages
+from django.conf import settings
+
 # Create your views here.
 
 
@@ -62,5 +64,9 @@ def deleteData(request, id):
     return redirect("/")
 
 
-def about(request):
-    return render(request, "about.html")
+def signin(request):
+    return render(request, "signin")
+
+
+def signout(request):
+    return render(request, "signout")

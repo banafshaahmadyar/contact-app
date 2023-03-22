@@ -19,9 +19,6 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('contactapp.urls')),
-    path('signup/', views.SignupPage, name="signup"),
-    path('login/', views.LonginPage, name="login"),
-
+    path('', include('contactapp.urls'))
 
 ]

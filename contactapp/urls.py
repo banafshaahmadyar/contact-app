@@ -8,8 +8,8 @@ urlpatterns = [
     path('insert', views.insertData, name="insertData"),
     path('update/<id>', views.updateData, name="updateData"),
     path('delete/<id>', views.deleteData, name="deleteData"),
-    path('signup', views.SignupPage, name="signup"),
-    path('login', views.login, name="login"),
-
+    path('login',views.handleLogin,name="handleLogin"),
+    path('logout',views.handleLogout,name="handleLogout"),
+    path('signup',views.signup,name="signup"),
 
 ]

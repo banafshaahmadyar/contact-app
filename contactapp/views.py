@@ -64,9 +64,9 @@ def deleteData(request, id):
     return redirect("/")
 
 
-def signin(request):
-    return render(request, "signin")
+def SignupPage(request):
+    return render(request, 'signup.html')
 
 
-def signout(request):
-    return render(request, "signout")
+def LoginPage(request):
+    return render(request, 'login.html')

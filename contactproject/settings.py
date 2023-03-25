@@ -21,6 +21,9 @@ if os.path.exists("env.py"):
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+SECRET_KEY = os.environ.get('SECRET_KEY')
+
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 
 
@@ -33,7 +36,7 @@ SECRET_KEY = 'django-insecure-hy1^ng-_p_ankz68g*zf%3wk(dg!uu(r-)0hlcn(@26o!c*9cc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["contactapp.herokuapp.com", 'localhost']
+ALLOWED_HOSTS = ["mb2test.herokuapp.com", "localhost"]
 
 
 # Application definition

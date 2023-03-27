@@ -3,7 +3,7 @@
 I built this website to the people for storing their contacts details.
 In the Contacts app , you can view and edit your contacts lists from personal, business, and other accounts. You can also create contacts and set up a contact card with your own information.
 
-[You can try it here on the live website!](https://the-deepest-cleaning-vm.herokuapp.com/)
+[You can try it here on the live website!](https://contactapp.herokuapp.com/)
 
 ![Home page](./static/images/homepage.png)
 

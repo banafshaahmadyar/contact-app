@@ -74,21 +74,43 @@ The Contacts App lets you organize and manage your company's relationships with 
 
    <img width="941" alt="image" src="https://user-images.githubusercontent.com/100950189/227898932-052494af-a617-4a5c-a0c2-24ad1420e7d9.png">
    
- The user can insert new contact details by cliking on submite buttom.
+ The user can insert new contact details by cliking on submit buttom.
  
    <img width="946" alt="image" src="https://user-images.githubusercontent.com/100950189/227903054-cf00d740-b2ce-4208-986b-8db633c1c490.png">
+   
+   And show alert DATA INSERTED SUCCESSFULLY.
+      <img width="555" alt="image" src="https://user-images.githubusercontent.com/100950189/227907462-9dd7c005-9045-43a7-9e0d-ccba796048a8.png">
 
  The user can edit contact details. 
  
    <img width="934" alt="image" src="https://user-images.githubusercontent.com/100950189/227901263-183e291e-9ec8-474c-96ab-ee75e2a72b60.png">
    
- Then show alert of success.
-
-   <img width="946" alt="image" src="https://user-images.githubusercontent.com/100950189/227901997-7dd57ccc-f037-434d-bdbd-71f1cbab442b.png">
+   And show alert DATA UPDATED SUCCESFULLY.
+     <img width="553" alt="image" src="https://user-images.githubusercontent.com/100950189/227907854-0719e7c4-667b-4948-ab6e-dbfc9b3d6573.png">
 
  The user can delete contacts.
  
    <img width="936" alt="image" src="https://user-images.githubusercontent.com/100950189/227902373-67fa19d3-d25f-495c-9135-f19f0d4ad9c7.png">
+   
+   And show Alert DATA DELETED SUCCESSFULLY .
+     <img width="549" alt="image" src="https://user-images.githubusercontent.com/100950189/227908427-8b01bdb6-29ab-4bfd-8380-774015c5b6b0.png">
+
+The user by cliking on registration button can SIgn up Or Log in.
+      
+ <img width="944" alt="image" src="https://user-images.githubusercontent.com/100950189/227909253-aacba5fb-e333-40f2-b558-34208c729a6d.png"> 
+ 
+ This is Sign Up page:
+  <img width="955" alt="image" src="https://user-images.githubusercontent.com/100950189/227909575-f4e6b899-7743-4ed9-8e20-dae24116014a.png">
+  
+If user have an account so He/She can click on Already User:
+  <img width="286" alt="image" src="https://user-images.githubusercontent.com/100950189/227910493-b8d2a30d-86f9-48dd-a5ec-058f9f9eaf04.png">
+  
+This is Login page:
+  <img width="956" alt="image" src="https://user-images.githubusercontent.com/100950189/227910719-357a3c60-e812-4e3b-8d09-e07bd0f4c8e5.png">
+ 
+ If user Wants to make a new account so by Clicking on New User:
+  <img width="286" alt="image" src="https://user-images.githubusercontent.com/100950189/227911088-cf8656e9-60ff-4965-94de-c68091fa248f.png">
+
 
 
 ![Approve/Pending](./static/images/pending-approve-bookings.png)

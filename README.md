@@ -64,21 +64,16 @@ In the Contacts app , you can view and edit your contacts lists from personal, b
     
     * As a site user I can sign to account so that will added on admin site
 
- ### _**Not completed User Stories:**_
-    * As a User I would like to see what day or time slots are available
-
-    * As a User I would like to ask my own questions on the site
-
-    * As a User/Admin I would like to comment on the questions or answer it
 
 * You can find the agile method to my user stories on my github repo just click [here](https://github.com/users/ViktorMathe/projects/5/views/1)
 
 ## _**Features**_
 
-I created a website where the user can book an appoitment to two type of cleaning services and if would like even can leave a review with or without a picture. The user has to log in/ register first to see or use all the features.  
+The Contacts App lets you organize and manage your company's relationships with customers, vendors, and leads by creating and maintaining contacts for each. Method lets you maintain records of the names, phone numbers, emails and job titles of every person you do business with. 
 
-![Booking](./static/images/booking.png)
-![Review](./static/images/reviews.png)
+
+   <img width="941" alt="image" src="https://user-images.githubusercontent.com/100950189/227898932-052494af-a617-4a5c-a0c2-24ad1420e7d9.png">
+
 
  The user can check if the booked appoitment either is still pending or has been approved.  
 

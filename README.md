@@ -7,6 +7,10 @@ In the Contacts app , you can view and edit your contacts lists from personal, b
 
 <img width="956" alt="image" src="https://user-images.githubusercontent.com/100950189/227890090-fc442356-1350-4a0f-b28a-0a4c262655f8.png">
 
+# Super Admin credentials
+. Admin:
+  - Username : Aso
+  - Password : 1234
 
 ## _**Contents**_
 

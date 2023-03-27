@@ -18,7 +18,6 @@ In the Contacts app , you can view and edit your contacts lists from personal, b
     * [Completed User Stories](#completed-user-stories)
 
 * [Features](#features)
-    * [Future ideas](#future-ideas)
 
 * [Design](#design)
     * [Colors](#colors)

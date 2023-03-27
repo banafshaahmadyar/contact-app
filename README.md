@@ -1,108 +1,344 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Contact App** 
 
-Welcome banafshaahmadyar,
+I built this website to the people for storing their contacts details.
+In the Contacts app , you can view and edit your contacts lists from personal, business, and other accounts. You can also create contacts and set up a contact card with your own information.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[You can try it here on the live website!](https://the-deepest-cleaning-vm.herokuapp.com/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Home page](./static/images/homepage.png)
 
-## Gitpod Reminders
+## _**Contents**_
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* [User Stories](#user-stories)
+    * [Completed User Stories](#completed-user-stories)
+    * [Not completed User Stories](#not-completed-user-stories)
 
-`python3 -m http.server`
+* [Features](#features)
+    * [Future ideas](#future-ideas)
 
-A blue button should appear to click: _Make Public_,
+* [Design](#design)
+    * [Colors](#colors)
+    * [Font](#font)
+    * [Images](#images)
+    * [Audio](#audio)
 
-Another blue button should appear to click: _Open Browser_.
+* [Testing](#testing)
+    * [W3C Validator](#w3c-validator)
+    * [CSS Validator](#css-validator)
+    * [Lighthouse](#lighthouse)
+    * [Manual testing](#manual-testing)
+    * [Solved bugs](#solved-bugs)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* [Technology Used](#technology-used)
 
-A blue button should appear to click: _Make Public_,
+* [Deployment](#deployment)
 
-Another blue button should appear to click: _Open Browser_.
+* [Credits](#credits)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## _**User Stories**_
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ ### _**Completed User Stories:**_
+    
+    * As a User I would like to have a clean layout what is easy to see through
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    * As a User I want to able to register to the website to book my cleaning
 
-------
+    * As a User I would like to have an easy navigation between the pages
 
-## Release History
+    * As a User I would like to be able to book a cleaning
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    * As a User I would like to write review about the company
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    * As a User I would like to upload images for my reviews
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    * As a User I would like to be able to book a cleaning
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    * As a User I would like to see my booking information and confirmation in a separate field
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    * As an Staff member I would like to sign in and see different options to confirm the bookings or answer questions
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    * As a Staff member I want to be able to approve the booked time slots
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    * As a User/Staff member I would like to edit or delete the reviews
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ ### _**Not completed User Stories:**_
+    * As a User I would like to see what day or time slots are available
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    * As a User I would like to ask my own questions on the site
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    * As a User/Admin I would like to comment on the questions or answer it
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* You can find the agile method to my user stories on my github repo just click [here](https://github.com/users/ViktorMathe/projects/5/views/1)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## _**Features**_
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+I created a website where the user can book an appoitment to two type of cleaning services and if would like even can leave a review with or without a picture. The user has to log in/ register first to see or use all the features.  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Booking](./static/images/booking.png)
+![Review](./static/images/reviews.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ The user can check if the booked appoitment either is still pending or has been approved.  
 
-------
+![Approve/Pending](./static/images/pending-approve-bookings.png)
 
-## FAQ about the uptime script
+And if the user wish can change the still pending booking but which has been approved can not been edited just delete it.  
 
-**Why have you added this script?**
+![Edit](./static/images/edit-booking.png)
+![Delete](./static/images/delete-booking.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+I hope everybody found this website useful and easy to navigate on even if the cleaners will not turn up for the booked dates. As always there is so many things what I would like to do to improve my website with further features.
 
-**How will this affect me?**
+ 
+ ### _Future ideas:_
+  * I would like to send e-mails when the user registered/booked an appoitment 
+  * I would like to send an e-mail to confirm the booking.
+  * Make a contact form where the user can ask anything from the cleaning staff
+  * Add comment/answer option to the question forms.
+  * The user can see which days and time slots are available to book.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  ## _**Design**_
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+  * ### _Colors:_
+    * I choose a dark red color ( rgba(112, 13, 0, 0.9) ) with 90% of opacity to header and footer which I think it is a good eye catching colour with a light grey (#D7DDE0) writing on it so it is easy to read and looks quite good.
+    * The box which contains the forms and the booking/review informations is the same light grey what I used for the fonts earlier so it is fit in the website design and I have a basic black writing on it.
+    * The buttons have been style as the action for example the pending/edit sections are marked as yellow, the delete button is red and the approved button is green as success.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+  * ### _Font:_
+    * I used a Google Font called Lato with regular (400) weight and add Italic style to all of the headers and normal for rest of the page.
+ 
+  * ### _Images:_
+    * I used an image about a very nice clean, tidy kitchen so the users can see straight this company is trying to do the best service what they can.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## _**Testing**_
 
-**Can I opt out?**
+* ### _W3C Validator:_
+    * I got back the following message : Document checking completed. No errors or warnings to show. from the official [W3C Website](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthe-deepest-cleaning-vm.herokuapp.com%2F)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* ### _CSS Validator:_
+    * I got back the following message: Sorry! We found the following errors (16)
+    URI : https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css from the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fthe-deepest-cleaning-vm.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) which is bootstrap fault my own CSS has no Error!
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* ### _Lighthouse:_
+    * I done the lighthouse check through an incognito because that is when I got back the true result which were the following:
 
-**Anything more?**
+    ![Image about the lighthouse results](./static/images/lighthouse.png)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+    The performance keep jumping up and down but always still in the green area the best practices is a bit lower because I used jQuery and the Google Maps API.
 
----
+* ### _Manual testing:_
 
-Happy coding!
+    #### **Register New Account**
+
+    * Expected: As a User I want to able to register to the website to book my cleaning 
+    * Test: Create new account with username, create new account with already existing username, create new account with and without email address.  
+    * Outcome: If the new account has a username the account is created, if an email address is entered or not. When trying to create a new account with an existing username, the user is encouraged to choose a different username since it already exists. When the account is registered the user is logged in and is notified by an alert. 
+
+    #### Login
+
+    * Expected: As a registered site user you should be able to log in to your accout to be able to interact with the site.
+    * Test: Check Login functionality as registered user. 
+    * Outcome: When entering valid login details the user is logged in and redirected to the home page and an alert notifies the user that they are logged in. 
+
+    #### Logout
+
+    * Expected: As a registered and logged in user you should be able to log out of the site. 
+    * Test: Check Logout functionality as logged in user. 
+    * Result: When clicking Logout the user is redirected to Logout page and asked to confirm that they are want to log out. When Log Out button is clicked the user is logged out and redirected to home page and an alert notifies the user that they are logged out.  
+
+    #### **Testing as a User**
+
+    #### Make a Booking
+
+    * Expected : The user can book an appoitment and can view it in the pending booking section until is not been approved and get a notification when the booking was done.
+    * Test: Made the booking as a user.
+    * Outcome: When the booking has been made I get the notification and it appeared in the pending booking section.
+
+    #### Edit a Booking
+    
+    * Expected : The user can edit an appoitment if it has not been approved and can view it in the pending booking section and get a notification when the booking was done.
+    * Test: Edit the booking as a user.
+    * Outcome: When the booking has been edited I get the notification and it has been changed.
+
+    #### Delete a Booking
+    
+    * Expected : The user can delete an appoitment if it either been approved or not and should disappear from the pending/approved booking sections and get a notification when the booking was done.
+    * Test: Delete the booking as a user.
+    * Outcome: When the booking has been deleted I get the notification and it has been deleted from the database.
+
+    #### Add a Review
+
+    * Expected : The user can write a review and can upload a picture if wish, and can view it on the review page.
+    * Test: Write a review as a user and upload a picture.
+    * Outcome: When the review has been wrote I get the notification and it appeared on the review page with or without picture.
+
+    #### Edit a Review
+
+    * Expected : The user can edit a review and can upload or delete picture if wish, and get a notification when it is done.
+    * Test: Edit a review as a user and deleted a picture.
+    * Outcome: When the review has been edited I get the notification and it appeared on the review page without picture.
+
+    #### Delete a Review
+
+    * Expected : The user can delete a review.
+    * Test: Delete a review as a user.
+    * Outcome: When the review has been deleted I get the notification and it disappeard from the review page.
+    
+    #### **Testing as a SuperUser**
+
+    #### Approve Bookings
+
+    * Expected: The superuser can see all the pending bookings and able to approve it.
+    * Test: Approve the pending booking.
+    * Outcome: The pending booking has been approved and appeared in the approved booking section.
+
+    #### Edit Booking
+
+    * Expected: The superuser can see all the pending bookings and able to edit it.
+    * Test: Edit the pending booking.
+    * Outcome: The pending booking has been edited and stayed in the pending booking section.
+
+    #### Delete Booking
+
+    * Expected: The superuser is able to delete any booking made by anyone if it is been or not been approved.
+    * Test: Cancel booking in the pending and approved sections.
+    * Outcome: Both booking has been deleted from the database and the frontend.
+
+    #### Edit Review
+
+    * Expected: The superuser can edit all the reviews do not matter who wrote it.
+    * Test: Edit a review.
+    * Outcome: The review has been edited and still on the review page.
+
+    #### Delete Review
+    
+    * Expected: The superuser is able to delete any review made by anyone.
+    * Test: Delete review.
+    * Outcome: The review has been deleted from the database and the frontend.
+
+ * ### _Solved bugs_:
+
+    * Bug: When I wrote a review it has not been sent to the database.  
+    Solution: I did the "makemigrations" command loads of times but did not actually "migrate" it. that is why the database was not connected properly.
+
+    * Bug: I made the form to leave a review but it did not show up on the template.  
+    Solution: I was using a class based formview to render the template but I have not get the context data so the form did not show up.
+
+    * Bug: I had a problem with the edit review/booking I could not pull the data which was already been wrote in the review or been booked in a modal.  
+    Solution: I had a nice session with the tutors about it and at the end Ger said the big issues was I had to make a separate html for the edit where I can bring up the review/booking with the right id.
+
+    * Bug: When the user had to write the date for cleaning date there was no calendar just had to put in manually.  
+    Solution: Lucky for me my mentor showed me a solution with a widget in the forms and all was good.
+
+    * Bug: I coud not upload any images to the review page on the frontend.  
+    Solution: As I spoke with the tutors they point me to the right direction to I have to include a tag in the form which was the following : enctype="multipart/form-data" and this tag is let me upload the image from the front end.
+
+    * Bug: I couldn not show the validation message when the user choose a day in the past.  
+    Solution: The issue was I redirected the site to the home page after form has been done and the user could not see any message but the easy solution wwas just render it.
+
+    * Bug: Approve button not working.  
+    Solution: Change the integerfield to boolean field and toggle instead of a form.
+
+    * Bug: After deployment to heroku, the static files are not found.  
+    Solution: It happaned because the Debug in the settings was on True and I deployed like that, after I changed it to False everything went perfect.
+
+
+## _**Technology Used**_
+* [Django](https://www.djangoproject.com/ "Django Project website")
+    - Django was used to build the models, forms and views of the app, and was the backbone of this project.
+* [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/ "Bootstrap")
+     - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes, but also other styling such as buttons etc.
+* [Cloudinary](https://cloudinary.com/ "Cloudinary")
+     - Cloudinary was used as free cloud storage for images uploaded to the site through the recipe forms.
+* [Summernote](https://summernote.org "Summernote page")
+     - Summernote was used to allow users to add styling when adding a recipe to the site. This is particularly useful for using bullet points for ingredients or numbering the steps for the recipe.
+* [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/ "Crispy Forms documentation")
+    - Crispy Forms was used to style the add and edit recipe forms, allowing more than one field to occupy a line on the form.
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+    - Google fonts were used to import the fonts "Playfair Display" and "Lato" into the style.css file. These fonts were used throughout the project.
+* [Font Awesome](https://fontawesome.com/ "FontAwesome")
+     - Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+* [GitPod](https://git-scm.com/ "GitPod")
+     - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
+* [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing
+* [ElephantSQL](https://www.elephantsql.com/ "ElephantSQL Database")
+    - ElephantSQL was used to the new database instead of the Heroku's Postgres
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/marker-clustering/ "Google Maps API")
+ -  Google Maps API was used to make the map visible on the site with the marker on it.
+
+## _**Deployment**_
+
+* Create the Heroku App:
+    - Select "Create new app" in Heroku.
+    - Choose a name for your app and select the location.
+
+* Connect GitHub repo:
+    - On the deploy tab you choose the deployment method GitHub
+    - You type your GitHub repo name to connect with Heroku
+    - Click Connect
+
+* Attach the Postgres database:
+    - In the Resources tab, under add-ons, type in Postgres and select the Heroku Postgres option.
+
+* Attach the ElephantSQL database (instead of Postgre on Heroku):  
+    - Login to the ElephantSQL website
+    - Create New Instance
+    - Have to give a name to the plan and had to choose the Tiny Turtle plan which is free
+    - Select the region, and data center near your location
+    - Click Review and Create Instance
+    - Return to the dashboard and click on the instance name and copy the ElephantSQL database URL
+    - Code Institute provided a Postgres Migration Tool repo what I had to open and run  a python3 reel2reel.py command in the terminal
+    - On the Heroku website go to the settings, reveal config vars
+    - At the DATABASE_URL config var have to paste the Postgres URL and copy it to the migration tool and click enter
+    - When the terminal asked you had to paste the elephantSQL database url to the migration tool and click enter
+    - If you done you go the resources tab on the Heroku site and remove the existing Postgres add-on
+    - Write your app name to confirm the delete
+    - Go to the settings tab reveal the config vars and the DATABASE_URL should have gone by now
+    - Add a new config var called DATABASE_URL and paste your ElephantSQL database url and click Add
+    - The database has been changed
+
+
+* Prepare the environment and settings.py file:
+    - In the Settings tab, click on Reveal Config Vars and copy the url next to DATABASE_URL.
+    - In your GitPod workspace, create an env.py file in the main directory. 
+    - Add the DATABASE_URL value and your chosen SECRET_KEY value to the env.py file.
+    - Add the SECRET_KEY value to the Config Vars in Heroku.
+    - Update the settings.py file to import the env file and add the SECRETKEY and DATABASE_URL file paths.
+    - Update the Config Vars with the Cloudinary url, adding into the settings.py file also.
+    - In settings.py add the following sections:
+        - Had to the add the followings to the INSTALLED_APPS list:
+            - Cloudinary
+            - allauth ( for the register/login)
+            - django summernote
+            - crispy forms
+        - MESSAGE_TAGS ( to get the pop up messages if some action happened)
+        - CLOUDINARY_STORAGE (to upload the images )
+        - STATICFILE_STORAGE
+        - STATICFILES_DIRS
+        - STATIC_ROOT
+        - MEDIA_URL
+        - DEFAULT_FILE_STORAGE
+        - TEMPLATES_DIR
+        - Update DIRS in TEMPLATES with TEMPLATES_DIR
+        - Update ALLOWED_HOSTS with ['app_name.heroku.com', 'localhost']
+
+* Deployment:
+    - On the Heroku website you navigate to the deploy tab
+    - You look for the Manual Deploy and choose the "main" branch
+    - Click Deploy Branch
+
+* Live website : [The Deepest Cleaning](https://the-deepest-cleaning-vm.herokuapp.com/)
+
+
+* ## _**Credits**_
+
+    * The background I found it on the [Pexels.com](https://www.pexels.com/photo/white-wooden-cupboards-2724749/)
+
+    * The content on the deep/general cleaning page has been found on the following site: [Clean Sweep Of America](https://www.cleansweepofamerica.com/deep-cleaning-vs-regular-house-cleaning-what-youre-actually-missing/)
+
+    * I would like to give credit to my mentor, the tutors helped me a lot during this project. I am really aprreciate it.
+
+    * The logo was made by my wife, Roxana Mathe done it with Adobe Photoshop.
+

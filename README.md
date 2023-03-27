@@ -19,16 +19,7 @@ In the Contacts app , you can view and edit your contacts lists from personal, b
 * [Design](#design)
     * [Colors](#colors)
     * [Font](#font)
-    * [Images](#images)
-    * [Audio](#audio)
-
-* [Testing](#testing)
-    * [W3C Validator](#w3c-validator)
-    * [CSS Validator](#css-validator)
-    * [Lighthouse](#lighthouse)
-    * [Manual testing](#manual-testing)
-    * [Solved bugs](#solved-bugs)
-
+  
 * [Technology Used](#technology-used)
 
 * [Deployment](#deployment)
@@ -130,10 +121,6 @@ This is Login page:
      - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes, but also other styling such as buttons etc.
 * [Cloudinary](https://cloudinary.com/ "Cloudinary")
      - Cloudinary was used as free cloud storage for images uploaded to the site through the recipe forms.
-* [Summernote](https://summernote.org "Summernote page")
-     - Summernote was used to allow users to add styling when adding a recipe to the site. This is particularly useful for using bullet points for ingredients or numbering the steps for the recipe.
-* [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/ "Crispy Forms documentation")
-    - Crispy Forms was used to style the add and edit recipe forms, allowing more than one field to occupy a line on the form.
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")
     - Google fonts were used to import the fonts "Playfair Display" and "Lato" into the style.css file. These fonts were used throughout the project.
 * [Font Awesome](https://fontawesome.com/ "FontAwesome")
@@ -144,8 +131,7 @@ This is Login page:
      - GitHub was used to store the project after pushing
 * [ElephantSQL](https://www.elephantsql.com/ "ElephantSQL Database")
     - ElephantSQL was used to the new database instead of the Heroku's Postgres
-* [Google Maps API](https://developers.google.com/maps/documentation/javascript/marker-clustering/ "Google Maps API")
- -  Google Maps API was used to make the map visible on the site with the marker on it.
+
 
 # Deployment
 ## Set up ElephantSQL as Database for this application ##

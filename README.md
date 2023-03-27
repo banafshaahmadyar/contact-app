@@ -73,9 +73,23 @@ The Contacts App lets you organize and manage your company's relationships with 
 
 
    <img width="941" alt="image" src="https://user-images.githubusercontent.com/100950189/227898932-052494af-a617-4a5c-a0c2-24ad1420e7d9.png">
+   
+ The user can insert new contact details by cliking on submite buttom.
+ 
+   <img width="946" alt="image" src="https://user-images.githubusercontent.com/100950189/227903054-cf00d740-b2ce-4208-986b-8db633c1c490.png">
 
+ The user can edit contact details. 
+ 
+   <img width="934" alt="image" src="https://user-images.githubusercontent.com/100950189/227901263-183e291e-9ec8-474c-96ab-ee75e2a72b60.png">
+   
+ Then show alert of success.
 
- The user can check if the booked appoitment either is still pending or has been approved.  
+   <img width="946" alt="image" src="https://user-images.githubusercontent.com/100950189/227901997-7dd57ccc-f037-434d-bdbd-71f1cbab442b.png">
+
+ The user can delete contacts.
+ 
+   <img width="936" alt="image" src="https://user-images.githubusercontent.com/100950189/227902373-67fa19d3-d25f-495c-9135-f19f0d4ad9c7.png">
+
 
 ![Approve/Pending](./static/images/pending-approve-bookings.png)
 

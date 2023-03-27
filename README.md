@@ -12,7 +12,6 @@ In the Contacts app , you can view and edit your contacts lists from personal, b
 
 * [User Stories](#user-stories)
     * [Completed User Stories](#completed-user-stories)
-    * [Not completed User Stories](#not-completed-user-stories)
 
 * [Features](#features)
     * [Future ideas](#future-ideas)
@@ -41,27 +40,29 @@ In the Contacts app , you can view and edit your contacts lists from personal, b
 
  ### _**Completed User Stories:**_
     
-    * As a User I would like to have a clean layout what is easy to see through
+    * As a site user I can Store our contact details so that will store for long time
 
-    * As a User I want to able to register to the website to book my cleaning
+    * As a site user I can Add name of our contact so that will store for long time
 
-    * As a User I would like to have an easy navigation between the pages
+    * As a site user I can add contact last-named so that will store for long time
 
-    * As a User I would like to be able to book a cleaning
+    * As a site user I can add contact phone number so that will store for long time
 
-    * As a User I would like to write review about the company
+    * AAs a site user I can add contact email so that will store for long time
 
-    * As a User I would like to upload images for my reviews
+    * As a site user I can add contact age so that will store for long time
 
-    * As a User I would like to be able to book a cleaning
+    * As a site user I can add contact gender so that will store for long time
 
-    * As a User I would like to see my booking information and confirmation in a separate field
+    * As a site user I can display all the details in another site so that will store for long time
 
-    * As an Staff member I would like to sign in and see different options to confirm the bookings or answer questions
+    * As a site user I can edit that all details so that will store for long time
 
-    * As a Staff member I want to be able to approve the booked time slots
-
-    * As a User/Staff member I would like to edit or delete the reviews
+    * As a site user I can remove some contact details so that will remove from screen
+    
+    * As a site user I can Add account so that will store all contact details on specific account
+    
+    * As a site user I can sign to account so that will added on admin site
 
  ### _**Not completed User Stories:**_
     * As a User I would like to see what day or time slots are available

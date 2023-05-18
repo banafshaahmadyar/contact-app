@@ -212,6 +212,12 @@ This is Login page:
 
 * Live website : [Contact App](https://contactapp.herokuapp.com/)
 
+### HTML VALIDATION
+* Html passed without errors:
+
+<img width="913" alt="image" src="https://github.com/banafshaahmadyar/contact-app/assets/100950189/5d6b68ae-32c8-41ac-9494-d0ca3963feac">
+
+
 # Credits
 - I Think Therefore I Blog Tutorial in [Code Institute](https://codeinstitute.net/global/)
 - [Gp Multipurpose HTML and Bootstrap Template](https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/)

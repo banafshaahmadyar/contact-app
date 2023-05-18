@@ -5,8 +5,7 @@ In the Contacts app , you can view and edit your contacts lists from personal, b
 
 [You can try it here on the live website!](https://contactapp.herokuapp.com/)
 
-<img width="956" alt="image" src="https://user-images.githubusercontent.com/100950189/227890090-fc442356-1350-4a0f-b28a-0a4c262655f8.png">
-
+![image](https://github.com/banafshaahmadyar/contact-app/assets/100950189/7f8441a6-fa87-4a09-8bd3-29e0de48bf43)
 # Super Admin
 . Admin:
   - Username : Aso

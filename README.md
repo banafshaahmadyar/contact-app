@@ -214,7 +214,17 @@ This is Login page:
 
 ### HTML VALIDATION
 * Html passed without errors:
-    <img width="913" alt="image" src="https://github.com/banafshaahmadyar/contact-app/assets/100950189/f4188db7-c073-417e-b54b-c4269e53da83">
+<img width="913" alt="image" src="https://github.com/banafshaahmadyar/contact-app/assets/100950189/f4188db7-c073-417e-b54b-c4269e53da83">
+
+### CSS VALIDATION
+
+
+### PYTHON VALIDATION
+*My Python passed threw with no errors.
+<img width="905" alt="image" src="https://github.com/banafshaahmadyar/contact-app/assets/100950189/fc1c4a53-b24a-4ee9-8e7d-3b716d7d35c0">
+<img width="891" alt="image" src="https://github.com/banafshaahmadyar/contact-app/assets/100950189/e0b514e9-203a-4678-9bc5-7d571701f7b4">
+
+
 
 
 # Credits

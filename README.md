@@ -214,7 +214,6 @@ This is Login page:
 
 ### HTML VALIDATION
 * Html passed without errors:
-    
     <img width="913" alt="image" src="https://github.com/banafshaahmadyar/contact-app/assets/100950189/f4188db7-c073-417e-b54b-c4269e53da83">
 
 

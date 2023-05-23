@@ -13,7 +13,6 @@ import os
 from django.contrib.messages import constants as messages
 from pathlib import Path
 
-from pathlib import Path
 import dj_database_url
 
 if os.path.exists("env.py"):

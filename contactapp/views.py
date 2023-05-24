@@ -8,14 +8,14 @@ from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 
-
+@login_required
 def index(request):
     data = Contact.objects.all()
     print(data)
     context = {"data": data}
     return render(request, "index.html", context)
 
-
+@login_required
 def insertData(request):
 
     if request.method == "POST":

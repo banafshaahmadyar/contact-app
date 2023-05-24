@@ -148,5 +148,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MESSEGE_TAGES = {
     messages.ERROR: 'danger'
 }
-LOGIN_REDIRECT_URL = 'index'
-LOGIN_URL = '/'
+LOGIN_URL = "/auth/login"

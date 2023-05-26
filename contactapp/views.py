@@ -8,12 +8,14 @@ from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 
+
 @login_required
 def index(request):
     data = Contact.objects.all()
     print(data)
     context = {"data": data}
     return render(request, "index.html", context)
+
 
 @login_required
 def insertData(request):
@@ -69,6 +71,7 @@ def deleteData(request, id):
     return redirect("/")
 
 
+@login_required
 def handleLogin(request):
     if request.method == "POST":
         username = request.POST.get('username')
@@ -84,6 +87,7 @@ def handleLogin(request):
     return render(request, "login.html")
 
 
+@login_required
 def signup(request):
     if request.method == "POST":
         username = request.POST.get('username')
@@ -122,6 +126,7 @@ def signup(request):
     return render(request, "signup.html")
 
 
+@login_required
 def handleLogout(request):
     logout(request)
     messages.success(request, "Logout Success")

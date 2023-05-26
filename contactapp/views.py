@@ -70,7 +70,6 @@ def deleteData(request, id):
     return redirect("/")
 
 
-@login_required
 def handleLogin(request):
     if request.method == "POST":
         username = request.POST.get('username')
@@ -86,7 +85,6 @@ def handleLogin(request):
     return render(request, "login.html")
 
 
-@login_required
 def signup(request):
     if request.method == "POST":
         username = request.POST.get('username')
@@ -125,7 +123,6 @@ def signup(request):
     return render(request, "signup.html")
 
 
-@login_required
 def handleLogout(request):
     logout(request)
     messages.success(request, "Logout Success")
